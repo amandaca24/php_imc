@@ -10,12 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="575889a0-3624-495d-9170-777d47d743d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    <list default="true" id="575889a0-3624-495d-9170-777d47d743d1" name="Default Changelist" comment="#First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +68,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1oZHIhE8raHN6XHVUNHThs8Wt4z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -97,8 +94,16 @@
       <option name="presentableId" value="Default" />
       <updated>1613487115013</updated>
       <workItem from="1613487116242" duration="1112000" />
-      <workItem from="1613560270619" duration="8379000" />
+      <workItem from="1613560270619" duration="10065000" />
     </task>
+    <task id="LOCAL-00001" summary="#First Commit">
+      <created>1613571614808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613571614808</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,21 +114,60 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="#First Commit" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2610" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613487636209">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613487636209" />
+    <state x="2660" y="261" key="FileChooserDialogImpl" timestamp="1613572012882">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="261" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613572012882" />
     <state x="2659" y="243" key="NewPhpClassDialog" timestamp="1613487598884">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2659" y="243" key="NewPhpClassDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613487598884" />
+    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1613572080327">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613572080327" />
   </component>
 </project>
