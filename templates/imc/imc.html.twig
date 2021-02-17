@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <h1>O seu IMC é: {{ imc }}</h1>
+    {# read and display just one flash message type #}
+    {% for message in app.flashes('sucess') %}
+        <div class="flash-notice">
+            {{ message }}
+        </div>
+    {% endfor %}
+</body>
+</html>
