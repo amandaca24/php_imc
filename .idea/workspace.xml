@@ -11,7 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575889a0-3624-495d-9170-777d47d743d1" name="Default Changelist" comment="#First Commit">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ImcController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ImcController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/imc/imc.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/imc/imc.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,15 +68,21 @@
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
       <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1oZHIhE8raHN6XHVUNHThs8Wt4z" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -94,7 +103,8 @@
       <option name="presentableId" value="Default" />
       <updated>1613487115013</updated>
       <workItem from="1613487116242" duration="1112000" />
-      <workItem from="1613560270619" duration="10065000" />
+      <workItem from="1613560270619" duration="11030000" />
+      <workItem from="1613648821933" duration="1992000" />
     </task>
     <task id="LOCAL-00001" summary="#First Commit">
       <created>1613571614808</created>
@@ -103,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613571614808</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="#First Commit">
+      <created>1613573872866</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613573872866</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +166,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="#First Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="#First Commit" />
   </component>
@@ -165,9 +183,17 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2659" y="243" key="NewPhpClassDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613487598884" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613573884422">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613573884422" />
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1613572080327">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613572080327" />
+    <state x="2681" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1613573849820">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2681" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613573849820" />
   </component>
 </project>

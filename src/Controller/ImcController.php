@@ -24,6 +24,8 @@ class ImcController extends AbstractController
 
         return $this->render('imc/imc.html.twig', [
             'imc' => $imc,
+            'alt' => $alt1,
+            'peso' => $peso
         ]);
     }
 

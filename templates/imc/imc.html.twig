@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Calculadora de IMC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-    <h1>O seu IMC é: {{ imc }}</h1>
-    {# read and display just one flash message type #}
-    {% for message in app.flashes('sucess') %}
-        <div class="flash-notice">
+    <div class="container">
+        <h1>Calculadora de Índice de Massa Corporal - IMC</h1>
+
+    <div class="container">
+        <h2>Os seus dados:</h2>
+        <dl>
+            <dt>Altura:</dt>
+            <dd>{{ alt }}m</dd>
+            <dt>Peso:</dt>
+            <dd>{{ peso }}kg</dd>
+        </dl>
+        <h2>O seu IMC é:</h2>
+        <h3>{{ imc }}</h3>
+
+        {# read and display just one flash message type #}
+        {% for message in app.flashes('sucess') %}
+    </div>
+        <div class="alert alert-info col-sm-3">
             {{ message }}
         </div>
     {% endfor %}
+    </div>
 </body>
 </html>
