@@ -14,8 +14,9 @@ class ImcController extends AbstractController
      */
     public function imc($alt, $peso): Response
     {
-        $alt1 = $alt/100;
+        $alt1 = number_format($alt/100, 2);
         $imc = $peso/($alt1 * $alt1);
+        $imc_formated = number_format($imc, 2);
 
         $this->addFlash(
             'sucess',
@@ -23,7 +24,7 @@ class ImcController extends AbstractController
         );
 
         return $this->render('imc/imc.html.twig', [
-            'imc' => $imc,
+            'imc' => $imc_formated,
             'alt' => $alt1,
             'peso' => $peso
         ]);

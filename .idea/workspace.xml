@@ -11,7 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575889a0-3624-495d-9170-777d47d743d1" name="Default Changelist" comment="#First Commit">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ImcController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ImcController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/imc/imc.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/imc/imc.html.twig" afterDir="false" />
@@ -27,6 +26,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -104,7 +109,7 @@
       <updated>1613487115013</updated>
       <workItem from="1613487116242" duration="1112000" />
       <workItem from="1613560270619" duration="11030000" />
-      <workItem from="1613648821933" duration="1992000" />
+      <workItem from="1613648821933" duration="6220000" />
     </task>
     <task id="LOCAL-00001" summary="#First Commit">
       <created>1613571614808</created>
@@ -120,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613573872866</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="#Bootstraping">
+      <created>1613652654170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613652654170</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +180,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="#First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="#First Commit" />
+    <MESSAGE value="#Bootstraping" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Bootstraping" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2610" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613487636209">
@@ -183,10 +196,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2659" y="243" key="NewPhpClassDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613487598884" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613573884422">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613652659071">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613573884422" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613652659071" />
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1613572080327">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

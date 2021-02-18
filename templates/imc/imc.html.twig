@@ -4,33 +4,88 @@
     <title>Calculadora de IMC</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </head>
 <body>
     <div class="container">
-        <h1>Calculadora de Índice de Massa Corporal - IMC</h1>
-
-    <div class="container">
-        <h2>Os seus dados:</h2>
-        <dl>
-            <dt>Altura:</dt>
-            <dd>{{ alt }}m</dd>
-            <dt>Peso:</dt>
-            <dd>{{ peso }}kg</dd>
-        </dl>
-        <h2>O seu IMC é:</h2>
-        <h3>{{ imc }}</h3>
-
-        {# read and display just one flash message type #}
-        {% for message in app.flashes('sucess') %}
-    </div>
-        <div class="alert alert-info col-sm-3">
-            {{ message }}
+        <div>
+            <h1>Calculadora de Índice de Massa Corporal - IMC</h1>
         </div>
-    {% endfor %}
-    </div>
+
+        <div class="col-6">
+            <h2>Os seus dados:</h2>
+            <table class="table table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Altura</th>
+                        <th>Peso</th>
+                        <th>IMC</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{ alt }}m</td>
+                        <td>{{ peso }}kg</td>
+                        <td>{{ imc }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-6">
+            <h2>Classificação de acordo com o IMC</h2>
+            <table class="table table-hover">
+                <thead class="table-info">
+                    <tr>
+                        <th>IMC</th>
+                        <th>Classificação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% if(imc <= 18.5) %}
+                    <tr>
+                        <td>{{ imc }}</td>
+                        <td>Abaixo do peso</td>
+                    </tr>
+
+                {% elseif 18.6 <= imc >= 24.9 %}
+                    <tr>
+                        <td>{{ imc }}</td>
+                        <td>Peso ideal. YAY</td>
+                    </tr>
+
+                {% elseif 25 <= imc >=29.9 %}
+                    <tr>
+                        <td>{{ imc }}</td>
+                        <td>Levemente acima do peso</td>
+                    </tr>
+
+                {% elseif 30 <= imc >= 34.9 %}
+                    <tr>
+                        <td>{{ imc }}</td>
+                        <td>Obesidade grau I</td>
+                    </tr>
+
+                {% elseif 35 <= imc >= 39.9 %}
+                    <tr>
+                        <td>{{ imc }}</td>
+                        <td>Obesidade grau II - severa</td>
+                    </tr>
+
+                {% elseif(imc >= 40) %}
+                    <tr>
+                        <td>{{ imc }}</td>
+                        <td>Obesidade grau III - mórbida</td>
+                    </tr>
+                {% endif %}
+                </tbody>
+
+            </table>
+        </div>
+
 </body>
 </html>
